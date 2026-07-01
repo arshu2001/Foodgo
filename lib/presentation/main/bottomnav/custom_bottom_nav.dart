@@ -26,8 +26,8 @@ class CustomBottomNav extends StatelessWidget {
               IconButton(
                 icon: Image.asset(
                   currentIndex == 0
-                      ? 'assets/images/home.png'
-                      : 'assets/images/home_unselected.png',
+                      ? 'assets/images/icons/home.png'
+                      : 'assets/images/icons/home_unselected.png',
                   width: 24.w,
                   height: 24.h,
                   color: Colors.white,
@@ -36,7 +36,7 @@ class CustomBottomNav extends StatelessWidget {
               ),
               IconButton(
                 icon: Image.asset(
-                  'assets/images/user.png',
+                  'assets/images/icons/user.png',
                   width: 24.w,
                   height: 24.h,
                   color: Colors.white,
@@ -46,7 +46,7 @@ class CustomBottomNav extends StatelessWidget {
               SizedBox(width: 40.w), // Space for floating action button
               IconButton(
                 icon: Image.asset(
-                  'assets/images/comment.png',
+                  'assets/images/icons/comment.png',
                   width: 24.w,
                   height: 24.h,
                   color: Colors.white,
@@ -56,8 +56,8 @@ class CustomBottomNav extends StatelessWidget {
               IconButton(
                 icon: Image.asset(
                   currentIndex == 3
-                      ? 'assets/images/heart_selected.png'
-                      : 'assets/images/bottom_nav_heart.png',
+                      ? 'assets/images/icons/heart_selected.png'
+                      : 'assets/images/icons/heart.png',
                   width: 24.w,
                   height: 24.h,
                   color: Colors.white,
