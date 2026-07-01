@@ -56,7 +56,7 @@ class _MainViewState extends State<MainView> {
         backgroundColor: AppTheme.primaryColor,
         shape: const CircleBorder(),
         elevation: 4,
-        child: Image.asset('assets/images/plus.png', width: 24.w, height: 24.h),
+        child: Image.asset('assets/images/icons/plus.png', width: 24.w, height: 24.h),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
