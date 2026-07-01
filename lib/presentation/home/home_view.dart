@@ -40,7 +40,7 @@ class _HomeViewState extends ConsumerState<HomeView> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20.w),
+          padding: EdgeInsets.symmetric(horizontal: 20.w,vertical: 10.h),
           child: Column(
             children: [
 
