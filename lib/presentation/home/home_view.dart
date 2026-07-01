@@ -6,9 +6,6 @@ import 'package:foodgo/presentation/home/widgets/home_categories.dart';
 import 'package:foodgo/presentation/home/widgets/home_header.dart';
 import 'package:foodgo/presentation/home/widgets/home_search_bar.dart';
 import 'home_viewmodel.dart';
-import 'package:go_router/go_router.dart';
-import '../../core/theme/app_theme.dart';
-import 'home_viewmodel.dart';
 class HomeView extends ConsumerStatefulWidget {
   const HomeView({super.key});
 
